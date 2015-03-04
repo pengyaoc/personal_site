@@ -5,7 +5,7 @@ from .models import Greeting
 
 # Create your views here.
 def index(request):
-    return HttpResponse('足足宝宝最可爱')
+    return HttpResponse('Tianshu Mua Mua Mua')
 
 
 def db(request):
