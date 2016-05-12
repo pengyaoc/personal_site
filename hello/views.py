@@ -5,7 +5,7 @@ from .models import Greeting
 
 # Create your views here.
 def index(request):
-    return HttpResponse('Under Construction')
+    return HttpResponse('Under Construction 2016')
 
 
 def db(request):
