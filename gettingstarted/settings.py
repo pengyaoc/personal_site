@@ -39,7 +39,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hello'
+    'hello',
+    'newsletter',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -55,6 +56,9 @@ ROOT_URLCONF = 'gettingstarted.urls'
 
 WSGI_APPLICATION = 'gettingstarted.wsgi.application'
 
+STATIC_URL = '/static/'
+
+STATIC_ROOT = '/static/files'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
